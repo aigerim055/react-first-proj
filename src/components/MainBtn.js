@@ -1,12 +1,12 @@
 import React from 'react';
 
 
-const SignIn_btn = () => {
+const MainBtn = ({title}) => {
 	return (
 		<button className={'sign-btn'}>
-			Sign in
+			{title}
 		</button>
 	)
 }
 
-export default SignIn_btn;
+export default MainBtn;

@@ -1,7 +1,7 @@
 import React from 'react';
-import SignIn_btn from "./Sign_in_button";
-import SignUp_btn from "./Sign_up_button";
 import Links from "./Links";
+import MainBtn from "./MainBtn";
+import MainFilledBtn from "./MainFilledBtn";
 
 const Header = () => {
 	return (
@@ -10,8 +10,8 @@ const Header = () => {
 				<div className="header">
 					<Links/>
 					<div className="buttons">
-						<SignIn_btn/>
-						<SignUp_btn/>
+						<MainBtn title={'Sign In'}/>
+						<MainFilledBtn title={'Sign Up'}/>
 					</div>
 				</div>
 			</div>
